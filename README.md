@@ -1,6 +1,7 @@
 # flutterapp
 
 A new Flutter application.
+Belajar Membuat Aplikasi Flutter untuk Pemula
 
 ## Getting Started
 
