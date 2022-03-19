@@ -21,17 +21,18 @@ class myAPP extends StatelessWidget{
 
 class FirstScreen extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // Icon Hamburger Menu
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
+        leading: IconButton( // Leading untuk menu drawer dan hanya dapat menampung 1 widget
           icon: Icon(
             Icons.menu,
             color: Colors.white,
           ),
           onPressed: () {},
         ),
-        title: Text('First Screen'),
+
+        title: Text('First Screen'), // Icon Search
         actions: [
           IconButton(
             icon: Icon(
@@ -41,7 +42,17 @@ class FirstScreen extends StatelessWidget {
             onPressed: () {},
           ),
         ],
+
+      ),
+
+      body: Center( // Menambahkan Body dan Text
+        child: Text('Hellow World!'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        onPressed: () { },
       ),
     );
   }
 }
+
