@@ -1,7 +1,7 @@
 # flutterapp
 
 A new Flutter application.
-Belajar Membuat Aplikasi Flutter untuk Pemula
+Belajar Membuat Aplikasi Flutter untuk Pemula (Latihan Dicoding Kelas)
 
 ## Getting Started
 
