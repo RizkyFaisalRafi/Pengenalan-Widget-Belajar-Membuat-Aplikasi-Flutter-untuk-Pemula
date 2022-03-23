@@ -66,6 +66,7 @@ class BiggerText extends StatefulWidget {
   @override
   _BiggerTextState createState() => _BiggerTextState();
 }
+
 class _BiggerTextState extends State<BiggerText> {
   double _textSize = 16.0;
   @override
