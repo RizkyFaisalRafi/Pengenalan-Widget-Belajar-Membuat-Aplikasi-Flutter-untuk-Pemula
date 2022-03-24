@@ -1,22 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(myAppsecond());
+  runApp(SecondScreen(''));
 }
 
-
-class myAppsecond extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Screen 2',
-      theme: ThemeData(),
-      home: SecondScreen(),
-    );
-  }
-}
 
 class SecondScreen extends StatelessWidget {
+  final String message;
+  SecondScreen(this.message);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,9 +15,17 @@ class SecondScreen extends StatelessWidget {
         title: Text('Second Screen'),
       ),
       body: Center(
-        child: OutlinedButton(
-          child: Text('Kembali'),
-          onPressed: () {},
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(message),
+            OutlinedButton(
+              child: Text('Kembali'),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
         ),
       ),
     );
