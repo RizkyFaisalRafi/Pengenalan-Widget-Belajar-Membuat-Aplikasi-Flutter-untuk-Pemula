@@ -1,5 +1,7 @@
 # flutterapp
 
+**Berisi Latihan Latihan kelas Flutter Untuk Pemula Di Dicoding Indonesia**
+
 A new Flutter application.
 Belajar Membuat Aplikasi Flutter untuk Pemula (Latihan Dicoding Kelas)
 
